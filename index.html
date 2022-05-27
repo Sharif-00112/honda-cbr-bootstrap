@@ -28,10 +28,13 @@
                         <a class="nav-link active " aria-current="page" href="#" style="color: white;">Home</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link honda-text-white" href="#">Shop</a>
+                        <a class="nav-link honda-text-white" href="#items">Shop</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link honda-text-white" href="#">News</a>
+                        <a class="nav-link honda-text-white" href="#news">News</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link honda-text-white" href="#questions">FAQ</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link honda-text-white" href="#">Contact</a>
@@ -65,10 +68,10 @@
 
     <main class="">
         <!-- featured bike section  -->
-        <section>
+        <section id="items">
             <div class="container p-4">
                 <div class="text-center">
-                    <h2>Featured Bikes 2022</h2>
+                    <h2> <span class="honda-text-orange"> Featured </span>Bikes 2022</h2>
                     <p>Best Bike Collection</p>
                     <hr class="w-25 mx-auto"> 
                 </div>
@@ -91,10 +94,10 @@
         </section>
 
         <!-- latest news section  -->
-        <section>
+        <section id="news">
             <div class="container p-4">
                 <div class="text-center">
-                    <h2>Latest News</h2>
+                    <h2>Latest <span class="honda-text-orange">News</span></h2>
                     <hr class="w-25 mx-auto"> 
                 </div>
                 <div>
@@ -203,7 +206,7 @@
         </section>
 
         <!-- FAQ section  -->
-        <section>
+        <section id="questions">
             <div class="container py-5">
                 <div class="text-center">
                     <h2>Frequently Asked <span class="honda-text-orange">Questions</span></h2>
@@ -271,14 +274,16 @@
                               </div>
                         </div>
                     </div>
-                  </div>
+                </div>
             </div>    
         </section>
     </main>
 
     <!-- footer area  -->
-    <footer>
-
+    <footer class="honda-bg-dark honda-text-white py-3 mx-auto">
+        <section>
+            <small class= "d-flex justify-content-center m-3"> &copy; Copyright 2022 | preserved by: <a class="text-decoration-none ms-2" href="https://www.linkedin.com/in/md-sharif-hossain-481582137/"><span class="honda-text-orange"> Sharif Hossain</span></a></small>
+        </section>
     </footer>
     <!-- importing bootstrap js from CDN  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
