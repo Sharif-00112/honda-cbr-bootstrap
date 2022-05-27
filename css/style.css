@@ -1,0 +1,18 @@
+.honda-bg-primary{
+    background-color: #264653;
+}
+.honda-bg-secondary{
+    background-color: rgb(231, 111, 81);
+}
+.honda-text-orange{
+    color: rgb(231, 111, 81);
+}
+.honda-text-blue{
+    color: rgb(36, 166, 240);
+}
+.btn-honda{
+    background-color: rgb(231, 111, 81);
+    color: white;
+    border-radius: 15px;
+    padding: 10px 15px;
+}
